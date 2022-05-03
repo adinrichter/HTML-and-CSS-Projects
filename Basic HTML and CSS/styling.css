@@ -1,0 +1,17 @@
+P {
+    color: snow;
+    background: black;
+    font-weight: bold;
+    text-align: center;
+  }
+.style1 {
+	background-color: red;
+   color: blue;
+   text-align: left;
+   font-styling: bold;
+   font-size: large;
+   border: 2px outset gray;
+  }
+.style2 {
+	text-shadow: 2px 2px #ff0000;
+}
