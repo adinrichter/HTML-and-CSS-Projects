@@ -71,7 +71,7 @@ h1 {
 ------------------------------------------*/
 
 .container .squares:nth-child(-n+4):hover {
-    background-image: url("../images/icons/smileyface1.png")
+    background-image: url("../images/icons/smileyface1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
