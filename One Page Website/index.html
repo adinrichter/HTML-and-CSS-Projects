@@ -3,17 +3,18 @@
 <head>
 	<header>
 		<title>The Orb zone</title>
+		<link rel="stylesheet" href="./css/style.css">
 	</header>
 </head>
 <body>
 	<h1>Welcome to the ORB zone, please enjoy your stay</h1>
 	
 	<!-- nav -->
-		<ul>
+		<div>
 			<a href="./index.html"><li>Orb Zone</li></a>
 			<a href="#gallery" id="link"><li>View the Orbs</li></a>
 			<a href="#videos" id="link"><li>View the Orbs in action</li></a>
-		</ul>
+		</div>
 	<!-- end nav -->
 
 	<!-- gallery -->
@@ -56,25 +57,29 @@
 		<div>
 			
 			<!-- contact form -->
-				<div>
-					<p>Enter your information and we will<br>
-					reach out to you about the Orbs</p>
-					<div>
+				<div class="reservation">
+					<p class="rsvp-text">
+						Enter your information and we will reach you about the orbs
+					</p>
+					<div class="form-rsvp">
 						<form action="" method="post">
-							<input class="rsvp" type="text" value="First Name">
-							<input class="rsvp" type="text" value="Last Name">
-							<input class="rsvp" type="text" value="Email Address">
-							<input class="rsvp" type="text" value="Phone Number">
-							<input class="rsvp" type="text" value="Home Address">
-							<input class="rsvp" type="text" value="City">
-							<input class="rsvp" type="text" value="State">
-							<input class="rsvp" type="text" value="Birthdate">
-							<input class="rsvp" type="text" value="Banking Institution">
-							<input class="rsvp" type="text" value="Bank Routing Number">
-							<input class="rsvp" type="text" value="Bank Account Number">
-							<input class="rsvp" type="text" value="Social Security Card Number">
+							<input class="rsvp" type="text" placeholder="First Name">
+							<input class="rsvp" type="text" placeholder="Last Name">
+							<input class="rsvp" type="text" placeholder="Email Address">
+							<input class="rsvp" type="text" placeholder="Phone Number">
+							<input class="rsvp" type="text" placeholder="Home Address">
+							<input class="rsvp" type="text" placeholder="City">
+							<input class="rsvp" type="text" placeholder="State">
+							<input class="rsvp" type="text" placeholder="Birthdate">
+							<input class="rsvp" type="text" placeholder="Banking Institution">
+							<input class="rsvp" type="text" placeholder="Bank Routing Number">
+							<input class="rsvp" type="text" placeholder="Bank Account Number">
+							<input class="rsvp" type="text" placeholder="Social Security Card Number">
 					</div>
-					<div>
+					<div class="form-spacer">
+						<label class="terms">Terms and Conditions</label>
+					</div>
+					<div class="submit">
 						<input type="submit" value="Submit">
 					</div>
 				</div>
