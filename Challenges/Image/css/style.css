@@ -1,0 +1,14 @@
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.invertcolors {
+    filter: invert(1);
+}
+
+.rounded-large {
+    border-radius: 5%;
+}
