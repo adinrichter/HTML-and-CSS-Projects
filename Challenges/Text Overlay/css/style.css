@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }  
+
+.caption {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 56px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }

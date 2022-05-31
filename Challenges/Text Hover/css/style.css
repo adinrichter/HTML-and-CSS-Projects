@@ -1,0 +1,11 @@
+p {
+    background-color: lightgray;
+    position: absolute;
+}
+
+p:hover {
+    background-color: gray;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+}

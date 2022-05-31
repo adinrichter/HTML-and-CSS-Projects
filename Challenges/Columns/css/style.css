@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+    background-color: lightblue;
+}
+  
+.column {
+    width: 50%;
+    height: 500px;
+    flex: 50%;
+    color: black;
+}
